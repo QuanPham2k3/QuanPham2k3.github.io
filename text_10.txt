@@ -1,0 +1,19 @@
+0 rec_26710.wav, "Những ngày này trời mưa nhiều khiến lòng buồn man mác. Chiếc laptop cũ cũng bắt đầu lag khiến công việc bị chậm trễ.", 
+
+1 rec_16173.wav, "Bảo hiểm hỗ trợ chín mươi phần trăm, bạn chỉ cần đóng mười phần trăm. Số tiền còn lại là năm trăm nghìn đồng.", 
+
+2 rec_25397.wav, "Mô hình này xử lý hơn một nghìn tỷ phép tính mỗi giây. Tốc độ xử lý đạt năm trăm teraflop trên mỗi chip.", 
+
+3 rec_25941.wav, "Cô ấy từ chối lời mời tham gia team một cách lịch sự. Mọi người đều hiểu và tôn trọng quyết định của cô.", 
+
+4 rec_25371.wav, "Nhiều người mắc chứng rối loạn ăn uống không thể kiểm soát được bản thân. Họ luôn cảm thấy áp lực về cân nặng."
+
+5 rec_1451.wav, "Chùm nho này trông thật tươi ngon, mình sẽ mua về để ăn vặt. Nhớ đăng ảnh lên story khoe với bạn bè nhé!",
+
+6 rec_11087.wav, "Hôm nay trời đẹp, có chút gió thổi nhẹ. Mình sẽ ra quán cà phê ngồi check mail và xem một vài clip ngắn.", 
+
+7 rec_1545.wav,  "Chiếc vòng tay này là món quà từ thần tượng của tôi. Tôi luôn đeo nó khi đi dự tiệc để thêm tự tin.", 
+
+8 rec_12804.wav, "Để bảo vệ sức, quý vị nên tập thể dục đều đặn. Hãy bắt đầu với bài tập nhẹ như đi bộ mỗi ngày.",
+
+9 rec_10816.wav, "Tôi đang sưu tập những chiếc laptop cũ để làm dự án. Mỗi lần tìm được một chiếc đẹp là tôi lại rất vui.",
