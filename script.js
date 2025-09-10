@@ -53,8 +53,8 @@ const models = [
         folder: "Neutral_long"
     },
     {
-        name: "North Female", 
-        folder: "North_female"
+        name: "Phung", 
+        folder: "Phung"
     },
     {
         name: "ZH Siwei Female",
@@ -132,8 +132,8 @@ const tableConfigs = [
                 folder: "Neutral_long"
             },
             {
-                name: "North Female", 
-                folder: "North_female"
+                name: "Phung", 
+                folder: "Phung"
             },
             {
                 name: "ZH Siwei Female",
