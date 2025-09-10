@@ -53,8 +53,8 @@ const models = [
         folder: "Neutral_long"
     },
     {
-        name: "Phung audio context", 
-        folder: "Phung"
+        name: "North Female", 
+        folder: "North_female"
     },
     {
         name: "ZH Siwei Female",
@@ -132,8 +132,8 @@ const tableConfigs = [
                 folder: "Neutral_long"
             },
             {
-                name: "Phung",
-                folder: "Phung"
+                name: "North Female", 
+                folder: "North_female"
             },
             {
                 name: "ZH Siwei Female",
