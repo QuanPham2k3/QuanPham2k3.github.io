@@ -53,21 +53,25 @@ const models = [
         folder: "Neutral_long"
     },
     {
-        name: "North Female", 
-        folder: "North_female"
+        name: "Phung audio context", 
+        folder: "Phung"
     },
     {
         name: "ZH Siwei Female",
         folder: "ZH_Siwei_female"
     },
     {
-        name: "ZH Houzhen Male",
-        folder: "ZH_Houzhen_male"
+        name: "Lindy Female",
+        folder: "Lindy"
     },
     {
-        name: "Phung",
-        folder: "Phung"
+        name: "Emma Female",
+        folder: "Emma_neutral"
     },
+    {
+        name: "Elevenlab v3",
+        folder: "elevenlab_v3"
+    }
 ];
 
 // Cấu trúc dữ liệu cho nhiều bảng
@@ -128,21 +132,25 @@ const tableConfigs = [
                 folder: "Neutral_long"
             },
             {
-                name: "North Female", 
-                folder: "North_female"
+                name: "Phung",
+                folder: "Phung"
             },
             {
                 name: "ZH Siwei Female",
                 folder: "ZH_Siwei_female"
             },
             {
-                name: "ZH Houzhen Male",
-                folder: "ZH_Houzhen_male"
+                name: "Emma Female",
+                folder: "Emma_neutral"
             },
             {
-                name: "Phung",
-                folder: "Phung"
+                name: "Lindy Female",
+                folder: "Lindy"
             },
+            {
+                name: "Elevenlab v3",
+                folder: "elevenlab_v3"
+            }
         ]
     },
     
@@ -274,6 +282,7 @@ function getAudioPath(model, id) {
     return `${model.folder}/audio_${id}.wav`;
 }
 
+// Sửa function createAudioButton - thêm lại error handling
 function createAudioButton(model, audioPath, text) {
     const audio = document.createElement('audio');
     audio.src = audioPath;
@@ -282,8 +291,14 @@ function createAudioButton(model, audioPath, text) {
     audio.style.width = '100%';
     audio.style.height = '30px';
     
-    audio.title = `${model.name}`;
+    // Thêm lại fallback cho MP3
+    audio.addEventListener('error', function() {
+        if (audioPath.endsWith('.wav')) {
+            audio.src = audioPath.replace('.wav', '.mp3');
+        }
+    });
     
+    audio.title = `${model.name}`;
     return audio;
 }
 

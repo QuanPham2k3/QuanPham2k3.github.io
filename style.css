@@ -12,8 +12,7 @@ body {
 }
 
 .container {
-    max-width: 1600px; /* Tăng từ 1400px để chứa 7 cột */
-    margin: 0 auto;
+    max-width: 1600px; /F
     padding: 20px;
 }
 
